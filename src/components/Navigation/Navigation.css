@@ -1,0 +1,75 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid rgba(246, 244, 244, 0.7);
+  z-index: 0;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav__title {
+  width: 200px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Roboto Slab", sans-serif;
+  margin-left: 104px;
+  margin-top: 30px;
+}
+
+.nav__user-container {
+  margin-top: 19px;
+  align-items: center;
+}
+
+.nav__button-home {
+  background: none;
+  color: white;
+  border: none;
+  width: 49px;
+  height: 24px;
+  padding: 0;
+  margin-right: 42px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.nav__button-home:hover {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.nav__button-signin {
+  background: none;
+  color: white;
+  border-radius: 25px;
+  width: 176px;
+  height: 48px;
+  border: 1px solid white;
+  padding: 0;
+  margin-right: 104px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.nav__button-signin:hover {
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.Home__button-border-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  border-width: medium;
+  width: 68px;
+  height: 3px;
+}
