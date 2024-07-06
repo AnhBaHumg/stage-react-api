@@ -1,21 +1,38 @@
-.signUp__Modal {
-  max-height: 383px;
+.form__label {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-.signIn__Modal {
-  width: 430px;
-  height: 380px;
+.form__label:last-of-type {
+  padding-top: 31px;
 }
 
-.modal__signUp {
-  width: 358px;
-  height: 20px;
-  border: none;
-  background-color: transparent;
-  color: rgba(47, 113, 229, 1);
+.form__input-text {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  font-size: 0.875rem;
+  height: 15px;
   padding: 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
 }
 
-.modal__signUp:hover {
-  cursor: pointer;
+.form__error-login-disabled {
+  visibility: hidden;
+  padding-top: 3px;
+}
+
+.form__error-login {
+  visibility: visible;
+  text-align: left;
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 3px;
 }
