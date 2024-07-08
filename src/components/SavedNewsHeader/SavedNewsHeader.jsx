@@ -11,10 +11,10 @@ function SavedNewsHeader({ isLoggedIn, onLogout }) {
       <div className="saved-news-header__info-container">
         <p className="saved-news-header__title">Saved articles</p>
         <h2 className="saved-news-header__news-counter">
-          Thinh Nguyen
+          Thinh, you have saved articles
         </h2>
         <p className="saved-news-header__news-keywords">
-          By keywords: <b>Nature, Yellowstone, and 2 others</b>
+          By keywords: <b>Nature, Yellowstone, and 2 other</b>
         </p>
       </div>
     </div>

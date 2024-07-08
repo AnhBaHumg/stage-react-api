@@ -2,19 +2,12 @@ import React from "react";
 import NewsCard from "../NewsCard/NewsCard";
 import "./SavedNews.css";
 
-function SavedNews({ isLoggedIn, savedNews, handleRemoveArticle }) {
+function SavedNews({ isLoggedIn, savedNews }) {
   return (
     <div className="saved__news-container">
       {savedNews.map((newsItem, index) => {
-        const isSaved = true;
         return (
-          <NewsCard
-            isLoggedIn={isLoggedIn}
-            newsItem={newsItem}
-            key={index}
-            isSaved={isSaved}
-            handleRemoveArticle={handleRemoveArticle}
-          />
+          <NewsCard isLoggedIn={isLoggedIn} newsItem={newsItem} key={index} />
         );
       })}
     </div>

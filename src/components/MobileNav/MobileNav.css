@@ -1,4 +1,4 @@
-.mobile__nav {
+.mobile {
   color: white;
   display: flex;
   border-bottom: 1px solid rgba(196, 196, 196, 0.3);
@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.mobile__nav-dark {
+.mobile-dark {
   color: white;
   display: flex;
   border-bottom: 1px solid rgba(196, 196, 196, 0.3);
@@ -147,7 +147,7 @@
 }
 
 @media screen and (min-width: 426px) {
-  .mobile__nav {
+  .mobile {
     display: none;
   }
   .mobile__nav-menu {

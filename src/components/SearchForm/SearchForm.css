@@ -1,4 +1,4 @@
-.search__form {
+.search {
   display: flex;
   flex-direction: column;
 }
@@ -88,7 +88,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .search__form {
+  .search {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -118,7 +118,7 @@
 }
 
 @media screen and (max-width: 250px) {
-  .search__form {
+  .search {
     gap: 60px;
   }
   .search__form-container {

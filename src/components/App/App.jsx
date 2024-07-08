@@ -12,7 +12,6 @@ import SuccessModal from "../SuccessModal/SuccessModal";
 import { getNewsArticles } from "../../utils/Api";
 
 function App() {
-
   const [currentUser, setCurrentUser] = useState(null);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isModalLoading, setIsModalLoading] = useState(false);
@@ -63,6 +62,8 @@ function App() {
       })
       .catch((err) => console.error(err));
   };
+
+  
 
   useEffect(() => {
     if (!activeModal) return;

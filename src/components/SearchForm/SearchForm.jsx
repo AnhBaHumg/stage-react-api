@@ -21,7 +21,7 @@ function SearchForm({ onSubmit }) {
   };
 
   return (
-    <div className="search__form">
+    <div className="search">
       <form className="search__form-container" onSubmit={handleSubmit}>
         <input
           className="search__form-input"

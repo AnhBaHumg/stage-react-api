@@ -1,5 +1,5 @@
 export const apiKey = "855eae8d766f4da590c8c0af11d12332";
-export const BASE_URL = process.env.NODE_ENV === "http://localhost:3001";
+export const BASE_URL = "https://newsapi.org/v2/everything?";
 export const lang = navigator.language.split("-");
 
 function getcurrentDate() {

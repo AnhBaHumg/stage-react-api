@@ -11,7 +11,7 @@ function MobileNav({ isLoggedIn, onLoginModal, onLogout }) {
 
   return (
     <>
-      <div className={mobileMenu ? "mobile__nav-dark" : "mobile__nav"}>
+      <div className={mobileMenu ? "mobile-dark" : "mobile"}>
         <h2
           className={
             mobileMenu

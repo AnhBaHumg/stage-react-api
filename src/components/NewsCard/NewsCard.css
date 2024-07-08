@@ -84,6 +84,13 @@
 
 .newscard__delete-button:hover {
   background: no-repeat url("../../images/trash-hover.svg") #fff;
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
 }
 
 .newscard__container {
@@ -91,7 +98,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  /* max-width: 400px; */
 }
 
 .newscard__image {
