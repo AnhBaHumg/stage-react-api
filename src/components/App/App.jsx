@@ -21,6 +21,7 @@ function App() {
   const [isSearching, setIsSearching] = useState(false);
   const [savedNews, setSavedNews] = useState([]);
 
+  //set up const
   const handleRegisterModal = () => setActiveModal("register");
   const handleLoginModal = () => setActiveModal("login");
   const handleCloseModal = () => setActiveModal(null);
@@ -63,7 +64,7 @@ function App() {
       .catch((err) => console.error(err));
   };
 
-  
+  //useEffect
 
   useEffect(() => {
     if (!activeModal) return;

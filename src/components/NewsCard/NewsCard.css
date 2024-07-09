@@ -93,7 +93,7 @@
   border-radius: 8px;
 }
 
-.newscard__container {
+.newscard {
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -168,7 +168,7 @@
     top: 8px;
   }
 
-  .newscard__container {
+  .newscard {
     max-width: 224px;
   }
 
@@ -200,7 +200,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .newscard__container {
+  .newscard {
     max-width: 330px;
   }
 
@@ -210,13 +210,13 @@
 }
 
 @media screen and (max-width: 425px) {
-  .newscard__container {
+  .newscard {
     max-width: 290px;
   }
 }
 
 @media screen and (max-width: 325px) {
-  .newscard__container {
+  .newscard {
     max-width: 270px;
   }
 
@@ -226,7 +226,7 @@
 }
 
 @media screen and (max-width: 295px) {
-  .newscard__container {
+  .newscard {
     max-width: 230px;
   }
 
@@ -251,7 +251,7 @@
 }
 
 @media screen and (max-width: 250px) {
-  .newscard__container {
+  .newscard {
     max-width: 215px;
   }
 
@@ -260,7 +260,7 @@
   }
 }
 @media screen and (max-width: 235px) {
-  .newscard__container {
+  .newscard {
     max-width: 200px;
   }
 

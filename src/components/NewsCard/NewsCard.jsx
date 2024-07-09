@@ -19,7 +19,7 @@ function NewsCard({
     isSaved ? removeNewsArticle(newsItem) : saveNewsArticle(newsItem);
 
   return (
-    <article className="newscard__container">
+    <li className="newscard">
       {isLoggedIn && location === "/saved-news" ? (
         <div className="newscard__keyword-section">Yellowstone</div>
       ) : (
@@ -71,7 +71,7 @@ function NewsCard({
           {newsItem.source.name || newsItem.name}
         </p>
       </div>
-    </article>
+    </li>
   );
 }
 
